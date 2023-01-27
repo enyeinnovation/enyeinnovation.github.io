@@ -11,5 +11,5 @@ const handleLocation = () => {
   location.replace(route);
 };
 
-setTimeout(handleLocation, 0);
+setTimeout(handleLocation, 5000);
 // handleLocation();
