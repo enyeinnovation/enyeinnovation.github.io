@@ -1,5 +1,6 @@
 window.location.hostname;
 window.location.pathname;
+// window.location.href
 
 const url = "https://www.example.com/blog?search=hello&world";
 let domain = new URL(url);
