@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Countdown Timer</title>
-  </head>
-  <body>
-    <div class="fgp-redirect">
-      <span>5</span>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>heading dev</h2>
 
-    <script type="text/javascript">
-      let span = document.querySelector(".fgp-redirect span");
-      var timeLeft = span.textContent;
+  <script>
+      const myInterval = setInterval(function2, 5000);
 
-      let interval = setInterval(function5, 1e3);
-      function function5() {
-        timeLeft -= 1;
-        span.innerHTML = timeLeft;
-        timeLeft <= 0 && (clearInterval(interval), console.log("hello"), setTimeout(1));
-        // timeLeft <= 0 && (console.log(timeLeft))
+      function function2(){
+        console.log("function2")
       }
-    </script>
-  </body>
+
+  </script>
+</body>
 </html>
