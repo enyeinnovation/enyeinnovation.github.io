@@ -1,21 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h2>heading dev</h2>
+<html>
+  <body>
 
-  <script>
-      const myInterval = setInterval(function2, 5000);
-
-      function function2(){
-        console.log("function2")
+    <button onclick="myFunction()">Insert</button>
+    <h2 id="myH2">My Header</h2>
+    <script>
+      function myFunction() {
+        const h2 = document.getElementById("myH2");
+        let html = "<span style='color:red'>My span</span>";
+        h2.insertAdjacentHTML("afterbegin", html);
       }
-
-  </script>
-</body>
+    </script>
+  </body>
 </html>
