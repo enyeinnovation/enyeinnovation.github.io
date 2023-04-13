@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+
+main {
+  background-image: linear-gradient(rgb(4, 208, 255), rgb(4, 208, 255));
+  max-width: 50rem;
+  padding: 3vw;
+}
+/* === Desktop... === */
+@media (min-width: 40rem) {
+
+  main {
+    margin: 10vh auto;
+    border-radius: 2em;
+  }
+}
+/* === Desktop... === */
+
+.header_title {
+  margin-bottom: 0.4em;
+}
+
+.header_description {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_img {
+  margin-top: 1em;
+  border-radius: 1rem;
+}
+/* === Mobile... === */
+@media (max-width: 40rem) {
+  .header_img {
+    margin-top: 0;
+    border-radius: 0;
+  }
+  main {
+    padding: 0;
+  }
+}
+/* === Mobile... === */
+
+.header_img_profile {
+  width: 10em;
+  margin-top: -5em;
+  border-radius: 1em;
+}
+
+.social {
+  margin: 2em;
+}
+/* Base styles for the social icons */
+.social a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.social i {
+  font-size: 1.5rem; /* Adjust the size of the icons */
+  color: #000; /* Set the icon color */
+}
+
+/* Zoom effect on hover */
+.social a:hover {
+  transform: scale(1.2); /* Scale the icon by 1.2 times */
+}
+
+.links_btn {
+  border: 1px solid #000;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em 2em;
+  background-color: #000;
+  color: white;
+  border-radius: 3em;
+  font-size: 14px;
+  transition: transform 0.3s ease; /* Adds smooth transition */
+}
+
+.links_btn:hover {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.links_img {
+  width: 3em;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+.links_svg {
+  filter: invert(100%) sepia(11%) saturate(7498%) hue-rotate(221deg) brightness(100%) contrast(109%);
+}
+
+.links_text {
+  width: 100%;
+}
+
+iframe.youtube {
+  width: 90%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  margin: 5em auto;
+  border-radius: 1em;
+  /* margin: 0.5em; */
+  /* box-sizing: border-box; */
+}
