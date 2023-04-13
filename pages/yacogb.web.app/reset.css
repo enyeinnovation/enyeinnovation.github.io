@@ -1,0 +1,67 @@
+/* Import external stylesheets */
+@import url(https://frankgp.com/icon/icomoon/style.css);
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Box sizing for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* HTML styles */
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Anchor styles */
+a {
+  color: inherit;
+}
+
+/* Image styles */
+img {
+  width: 100%;
+}
+
+/* Text alignment center */
+.tac {
+  text-align: center;
+}
+
+/* Button styles */
+.btn,
+button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  margin: 0.3em;
+  background-color: transparent;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+.btn:hover,
+button:hover {
+  opacity: 0.7;
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #000;
+}
