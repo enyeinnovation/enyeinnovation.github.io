@@ -1,0 +1,13 @@
+[{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.frankgp.tools",
+    "sha256_cert_fingerprints": [
+      "27:2C:9E:3E:BF:10:E7:F3:CC:0E:DE:C7:8D:D8:AA:89:7D:B5:C9:52:5F:3B:C2:8F:43:F3:26:B9:D9:50:C8:26"
+    ]
+  }
+}]
