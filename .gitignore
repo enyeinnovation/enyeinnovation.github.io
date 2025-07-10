@@ -1,13 +1,13 @@
 *.config
-*.jpg
-*.webp
-*.png
-*.svg
-*.rar
+# *.jpg
+# *.webp
+# *.png
+# *.svg
+# *.rar
 # *.zip
 *.bat
 *.sh
-/img
+# /img
 /lib
 /backup
 /.vscode

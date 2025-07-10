@@ -1,20 +1,12 @@
-# JSON
+Top most
 
-https://enyeinnovation.github.io/json/martfury.json
-https://enyeinnovation.github.io/json/ig/enye.in.json
-https://enyeinnovation.github.io/json/ig/fgp555.json
-https://enyeinnovation.github.io/json/ig/enyeinnovation.json
+<https://github.com>
 
-### POLICY
 
-https://enyeinnovation.github.io/policy/transpaservic/account-and-data-deletion.html
-https://enyeinnovation.github.io/policy/transpaservic/privacy-policy.html
+==========  ==========
 
-### CDNs
 
-`EnlighterJS` : <https://enyeinnovation.github.io/EnlighterJS-3.4.0/dist/>
-
-# DEMO MARKDOWN
+# Elizabeths Rosacea [ILLUSTRATOR](https://enye.in/illustrator "ILLUSTRATOR")
 
 ![](img/profile.webp)
 
