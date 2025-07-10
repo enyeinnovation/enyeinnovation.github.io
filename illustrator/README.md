@@ -1,32 +1,12 @@
-# enyeinnovation.github.io
+Top most
 
-https://enyeinnovation.github.io
-https://enyeinnovation.github.io/illustrator/
-https://enyeinnovation.github.io/mixmatch/maintenance.json
-
-# POLICY
-
-https://enyeinnovation.github.io/policy/chrome/chrome-fgp-call-center-privacy.html
-https://enyeinnovation.github.io/policy/chrome/chrome-fgp-picture-in-picture-privacy.html
-https://enyeinnovation.github.io/policy/chrome/ctr-privacy-policy.html
-https://enyeinnovation.github.io/policy/systered/transpaservic-account-and-data-deletion.html
-https://enyeinnovation.github.io/policy/systered/transpaservic-privacy-policy.html
-
-<!--
+<https://github.com>
 
 
+==========  ==========
 
 
-
-
-
-
-
-
-
- -->
-
-# DEMO MARKDOWN
+# Elizabeths Rosacea [ILLUSTRATOR](https://enye.in/illustrator "ILLUSTRATOR")
 
 ![](img/profile.webp)
 
@@ -111,7 +91,7 @@ body {
 - Item B
 - Item C
 
-#### Unordered list (/\*)
+#### Unordered list (\*)
 
 - Item A
 - Item B
@@ -179,7 +159,7 @@ X&sup2; Y&sup3; &frac34; &frac14; &times; &divide; &raquo;
 
 ## Escaping for Special Characters
 
-/_literal asterisks/_
+\*literal asterisks\*
 
 ## Markdown extras
 
@@ -215,7 +195,7 @@ $$E=mc^2$$
 
 Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
 
-$$/sin(/alpha)^{/theta}=/sum_{i=0}^{n}(x^i + /cos(f))$$
+$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
 
 ### FlowChart
 
@@ -234,7 +214,7 @@ cond(no)->op
 
 ```seq
 Andrew->China: Says Hello
-Note right of China: China thinks/nabout it
+Note right of China: China thinks\nabout it
 China-->Andrew: How are you?
 Andrew->>China: I am good thanks!
 ```
