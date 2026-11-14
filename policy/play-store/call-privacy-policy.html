@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de Call Monitor para Android: información utilizada, acceso, notificaciones, conservación y eliminación de datos.">
+  <meta name="color-scheme" content="light dark">
+  <title>Política de privacidad · Call Monitor</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f6f8fc; --surface:#fff; --text:#172337; --muted:#4d6078; --line:#d8e1ed; --accent:#1859b8; }
+    @media(prefers-color-scheme:dark) { :root { --bg:#0f1826; --surface:#192638; --text:#edf2fa; --muted:#bcc9db; --line:#35485f; --accent:#9fc5ff; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { max-width:860px; margin:40px auto; padding:40px; background:var(--surface); border:1px solid var(--line); border-radius:16px; }
+    .brand { margin:0 0 12px; color:var(--accent); font-weight:700; }
+    h1 { font-size:clamp(1.8rem,5vw,2.5rem); line-height:1.2; margin:0 0 16px; letter-spacing:-.025em; }
+    h2 { font-size:1.25rem; line-height:1.4; margin:0 0 16px; }
+    p { margin:0 0 16px; } ul { margin:0 0 16px; padding-left:24px; } li+li { margin-top:10px; }
+    section { margin-top:32px; padding-top:28px; border-top:1px solid var(--line); scroll-margin-top:24px; }
+    .meta,footer { color:var(--muted); font-size:.9rem; } a { color:var(--accent); text-underline-offset:3px; overflow-wrap:anywhere; }
+    a:focus-visible { outline:3px solid var(--accent); outline-offset:4px; border-radius:2px; }
+    nav { margin-top:24px; padding:20px; border:1px solid var(--line); border-radius:12px; }
+    nav ul { display:flex; flex-wrap:wrap; gap:8px 24px; list-style:none; margin:0; padding:0; } nav li+li { margin:0; }
+    footer { margin-top:32px; padding-top:24px; border-top:1px solid var(--line); }
+    @media(max-width:600px) { main { margin:0; padding:28px 20px; border:0; border-radius:0; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="brand">Call Monitor · Android</p>
+    <h1>Política de privacidad</h1>
+    <p class="meta">Última actualización: <time datetime="2026-11-14">14 de noviembre de 2026</time></p>
+    <p>Esta política explica cómo <strong>Call Monitor</strong>, aplicación para Android con identificador <strong>com.frankgp.call</strong>, utiliza los datos al conectarse con Call Project. El responsable del desarrollo y contacto de privacidad es <strong>Frank GP</strong>: <a href="mailto:fgp555@gmail.com">fgp555@gmail.com</a>.</p>
+    <p>Call Monitor permite a supervisores y administradores autorizados consultar equipos, actividad de asesores y oportunidades de fibra óptica, realizar seguimiento y recibir notificaciones. Las cuentas y los permisos son gestionados por la organización que utiliza el servicio.</p>
+  </header>
+  <nav aria-label="Contenido de la política"><ul>
+    <li><a href="#datos">Datos utilizados</a></li><li><a href="#uso">Finalidades</a></li><li><a href="#terceros">Acceso y proveedores</a></li><li><a href="#conservacion">Conservación</a></li><li><a href="#eliminacion">Eliminación y contacto</a></li>
+  </ul></nav>
+  <section id="datos">
+    <h2>1. Información que utiliza la aplicación</h2>
+    <ul>
+      <li><strong>Cuenta y acceso:</strong> nombre, correo electrónico, identificador de usuario, rol y permisos. Si eliges ingresar con Google, se utiliza la identidad proporcionada por Google para comprobar que tu cuenta está autorizada. Si utilizas correo y contraseña, estos se envían al servicio para autenticarte; el servidor almacena una representación protegida de la contraseña, no su texto original.</li>
+      <li><strong>Equipos y asesores:</strong> identificadores de asesor, nombres, correos cuando existen, equipos asignados y responsables principales o auxiliares. Esta información procede de registros e importaciones realizados en Call Project y de sus herramientas conectadas.</li>
+      <li><strong>Actividad operativa:</strong> detecciones, fechas, estados de seguimiento, resultados de venta declarados y señales de presencia o última actividad de la extensión en CTR. La aplicación consulta estos registros y envía las acciones de seguimiento que realiza el usuario. La presencia corresponde a la herramienta conectada, no a la ubicación física del teléfono.</li>
+      <li><strong>Referencias de clientes:</strong> la aplicación recibe referencias enmascaradas, su tipo y los últimos cuatro caracteres para distinguir oportunidades. El servicio de detección protege la referencia completa mediante un hash con clave. La aplicación móvil no extrae por sí misma documentos ni números de clientes de CTR.</li>
+      <li><strong>Instalación y notificaciones:</strong> identificador generado para la instalación, token de Firebase Cloud Messaging, preferencias de avisos y datos necesarios para asociar el dispositivo con la cuenta y entregar mensajes.</li>
+      <li><strong>Datos técnicos:</strong> sesiones, fechas de solicitudes y metadatos necesarios para operar y proteger el servicio. La infraestructura recibe la dirección IP al establecer una conexión y puede generar registros técnicos de funcionamiento y seguridad.</li>
+    </ul>
+    <p>La aplicación no solicita acceso a contactos, cámara, micrófono, SMS, registros de llamadas ni ubicación GPS. No incorpora anuncios ni utiliza Firebase Analytics para analizar el comportamiento del usuario.</p>
+  </section>
+  <section id="uso">
+    <h2>2. Para qué se utilizan los datos</h2>
+    <ul>
+      <li>Verificar el acceso y aplicar los permisos de cada cuenta y equipo.</li>
+      <li>Mostrar asesores, detecciones y actividad, y mantener actualizada la información de monitoreo.</li>
+      <li>Registrar lecturas y cambios de seguimiento permitidos, con su usuario y fecha cuando corresponde.</li>
+      <li>Enviar los avisos elegidos por el usuario y gestionar su dispositivo de notificaciones.</li>
+      <li>Mantener las sesiones, resolver incidencias y prevenir accesos o solicitudes abusivas.</li>
+    </ul>
+    <p>Los resultados de venta son declaraciones de los usuarios; la aplicación no comprueba automáticamente una operación comercial. Los datos no se utilizan para publicidad personalizada, decisiones crediticias ni fines ajenos al funcionamiento de Call Monitor y Call Project.</p>
+  </section>
+  <section id="terceros">
+    <h2>3. Quién puede acceder a la información</h2>
+    <p>La información operativa está disponible para los administradores y supervisores autorizados según sus roles y cobertura de equipos. La organización que gestiona tu cuenta determina estas asignaciones.</p>
+    <p>Utilizamos proveedores de alojamiento e infraestructura para prestar el servicio, <strong>Google Identity</strong> para el acceso con Google y <strong>Firebase Cloud Messaging</strong> para notificaciones. Estos servicios procesan los datos necesarios para sus funciones, incluidos identificadores de instalación y tokens de mensajería en el caso de Firebase.</p>
+    <p>Puedes consultar la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a> y la <a href="https://firebase.google.com/support/privacy">información de privacidad de Firebase</a>. Su tratamiento también está sujeto a las políticas de esos proveedores.</p>
+    <p>No vendemos datos personales. Podremos comunicar información cuando sea necesario atender una obligación legal o una solicitud válida de una autoridad competente.</p>
+  </section>
+  <section id="notificaciones">
+    <h2>4. Notificaciones y permisos</h2>
+    <p>El acceso a Internet permite consultar Call Project. El permiso de notificaciones permite mostrar avisos del servicio, incluso cuando la aplicación está en segundo plano o cerrada, sujeto a las restricciones de Android y la conectividad.</p>
+    <p>Puedes cambiar las preferencias de avisos en la aplicación y revocar el permiso desde los ajustes de Android. Al desactivar el registro de notificaciones o cerrar sesión, la aplicación solicita retirar su dispositivo del servicio de avisos. Revocar únicamente el permiso de Android no elimina tu cuenta ni el historial del servidor.</p>
+    <p>Según los ajustes del dispositivo, otras personas podrían ver avisos en la pantalla. Puedes limitar su visibilidad desde la configuración de notificaciones de Android.</p>
+  </section>
+  <section id="seguridad">
+    <h2>5. Almacenamiento y protección</h2>
+    <p>Las conexiones al servicio publicado utilizan HTTPS. El acceso a los registros depende de permisos de cuenta y equipo. Las credenciales de sesión guardadas en Android se protegen mediante mecanismos vinculados a Android Keystore; las preferencias de apariencia y notificaciones se almacenan localmente. La aplicación no guarda la contraseña en texto plano en el dispositivo.</p>
+    <p>Las sesiones pueden mantenerse entre aperturas para evitar inicios de sesión repetidos y se pueden revocar al cerrar sesión o mediante las funciones de administración. Ningún sistema de almacenamiento o transmisión ofrece seguridad absoluta.</p>
+  </section>
+  <section id="conservacion">
+    <h2>6. Conservación de los datos</h2>
+    <p>La cuenta, las asignaciones, las detecciones y su seguimiento se conservan en Call Project mientras sean necesarios para la gestión del servicio o hasta que se eliminen mediante las funciones autorizadas. No existe una eliminación automática general de los registros operativos por el mero transcurso del tiempo.</p>
+    <p>Las sesiones y solicitudes temporales de acceso tienen vencimiento. Los registros técnicos y de entrega de mensajes se gestionan según su finalidad operativa. Las copias de seguridad exportadas por los administradores deben incluirse en la gestión de conservación y eliminación de la organización.</p>
+    <p>Desinstalar Call Monitor elimina sus datos locales según el funcionamiento de Android, pero no elimina la cuenta ni el historial almacenados en Call Project.</p>
+  </section>
+  <section id="eliminacion">
+    <h2>7. Acceso, corrección y eliminación</h2>
+    <p>Para solicitar acceso, corrección o eliminación de tu cuenta y datos asociados, contacta con el administrador de tu organización o escribe a <a href="mailto:fgp555@gmail.com?subject=Privacidad%20de%20Call%20Monitor">fgp555@gmail.com</a> con el asunto <strong>Privacidad de Call Monitor</strong>.</p>
+    <p>Indica el correo o identificador de tu cuenta y qué deseas solicitar. No envíes contraseñas ni documentos completos de clientes. Verificaremos tu relación con la cuenta antes de realizar cambios. Te informaremos si algún dato debe conservarse por una obligación aplicable o si la solicitud requiere intervención de la organización que lo administra.</p>
+    <p>La eliminación de una cuenta y la eliminación de registros operativos de asesores son operaciones diferentes: especifica si solicitas ambas. Cerrar sesión, desactivar avisos o desinstalar la aplicación no sustituye una solicitud de eliminación.</p>
+  </section>
+  <section id="menores">
+    <h2>8. Público al que se dirige</h2>
+    <p>Call Monitor está destinada al uso profesional de supervisores y administradores autorizados. No está dirigida a niños. Si consideras que se han incorporado datos de un menor indebidamente, comunícalo al contacto de privacidad para su revisión.</p>
+  </section>
+  <section id="cambios">
+    <h2>9. Cambios en esta política</h2>
+    <p>Publicaremos las actualizaciones en esta misma página e indicaremos la fecha de revisión. Si un cambio requiere información adicional o autorización del usuario, se comunicará por los medios pertinentes antes de aplicar ese tratamiento.</p>
+  </section>
+  <footer>Call Monitor · Frank GP · Contacto: <a href="mailto:fgp555@gmail.com">fgp555@gmail.com</a></footer>
+</main>
+</body>
+</html>
